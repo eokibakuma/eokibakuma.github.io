@@ -1,0 +1,14 @@
+:root {
+    /*ブランドカラー*/
+    --brand-color-primary: #AFBFEF;
+    --brand-color-secondary: #A7A6BB;
+
+    /*テキスト等に使うベースカラー*/
+    --base-color-primary: #403F48;
+    --base-color-secondary: #FFFFFF;
+
+    /*背景色*/
+    --background-color-primary: #F3F9FF;
+    --background-color-secondary: #EAEEF7;
+    --background-color-tertiary: #FFFFFF;
+}

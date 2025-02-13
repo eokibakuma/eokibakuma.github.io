@@ -1,0 +1,93 @@
+body {
+    font-family: 'Avenir', 'Hiragino Sans', 'Roboto', 'メイリオ', Meiryo, 'sans-serif';
+}
+
+.maru_title_main {
+    font-family: "Zen Maru Gothic", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 64px;
+    line-height: 150%;
+}
+
+.maru_title_sub {
+    font-family: "Zen Maru Gothic", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.maru_link_omukae {
+    font-family: "Zen Maru Gothic", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.maru_copy {
+    font-family: "Zen Maru Gothic", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.maru_subcopy {
+    font-family: "Zen Maru Gothic", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.maru_tag {
+    font-family: "Zen Maru Gothic", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.section_title {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.date {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.description {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 200%;
+}
+
+.caption {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 200%;
+}
+
+.detail {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.credit {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 150%;
+}
