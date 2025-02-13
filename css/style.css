@@ -1,0 +1,30 @@
+body {
+    height: 100%;
+    width: 100%;
+    max-width: 1200px;
+    min-width: 300px;
+    margin: auto;
+    position: relative;
+    background: var(--background-color-primary);
+}
+
+.main-tagunya-pic {
+    height: 100%;
+    max-height: 912px;
+    position: fixed;
+    top: 0px;
+    right: 120px;
+}
+
+.main-tagunya-pic img {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (min-width: 1200.05px) {
+    .main-tagunya-pic {
+        right: unset;
+        left: 50%;
+        transform: translateX(45px);
+    }
+}
