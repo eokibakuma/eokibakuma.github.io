@@ -21,6 +21,98 @@ body {
     height: 100%;
 }
 
+.main-column {
+    width: 525px;
+    margin-left: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.page-title {
+    width: 100%;
+    margin-top: 100px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background: var(--brand-color-primary);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.page-title-upside {
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--base-color-secondary);
+}
+
+.page-title-downside {
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--base-color-secondary);
+}
+
+.concept-description {
+    color: var(--base-color-primary);
+}
+
+.omukae-and-terms {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.button-omukae {
+    width: 100%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background: var(--background-color-tertiary);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 4px 16px rgba(167, 166, 187, 0.25);
+    text-decoration: none;
+}
+
+.button-omukae img {
+    width: 150px;
+    height: 150px;
+    margin-left: 32px;
+    margin-right: 40px;
+}
+
+.omukae-text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.omukae-text-upside {
+    color: var(--base-color-primary);
+}
+
+.omukae-text-downside {
+    width: 100%;
+    border-radius: 8px;
+    background: var(--brand-color-primary);
+    color: var(--base-color-secondary);
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.terms-link {
+    margin-right: auto;
+    padding-left: 8px;
+    padding-right: 25px;
+    color: var(--base-color-primary);
+    border-bottom: 2px solid var(--base-color-primary);
+    text-decoration: none;
+}
+
 @media screen and (min-width: 1200.05px) {
     .main-tagunya-pic {
         right: unset;
