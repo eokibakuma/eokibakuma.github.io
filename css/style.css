@@ -9,6 +9,7 @@ body {
 }
 
 .main-tagunya-pic {
+    z-index: -1;
     height: 100%;
     max-height: 912px;
     position: fixed;
@@ -22,6 +23,7 @@ body {
 }
 
 .main-column {
+    z-index: 10;
     width: 525px;
     margin-left: 120px;
     display: flex;
