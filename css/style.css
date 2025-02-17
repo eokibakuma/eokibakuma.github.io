@@ -96,7 +96,6 @@ body {
 }
 
 .omukae-text-downside {
-    width: 100%;
     border-radius: 8px;
     background: var(--brand-color-primary);
     color: var(--base-color-secondary);
@@ -178,6 +177,142 @@ body {
 }
 
 .item-data {
+    color: var(--base-color-primary);
+}
+
+.timeline {
+    margin-left: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.timeline-item {
+    margin-right: auto;
+    display: flex;
+    gap: 32px;
+}
+
+.timeline-date {
+    color: var(--brand-color-primary);
+}
+
+.timeline-content {
+    color: var(--base-color-primary);
+}
+
+.profile-kuma {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.profile-upside {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.profile-icon {
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.profile-icon img {
+    width: 120px;
+    height: 120px;
+}
+
+.profile-name {
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--base-color-primary);
+}
+
+.profile-text {
+    color: var(--base-color-primary);
+}
+
+.fuwanui {
+    position: relative;
+}
+
+.fuwanui img {
+    position: absolute;
+    top: -80px;
+    left: 0px;
+    display: none;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.fuwanui:hover img {
+    display: block;
+    opacity: 70%;
+}
+
+.profile-sns {
+    display: flex;
+    gap: 32px;
+}
+
+.sns-link {
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 8px;
+    text-decoration: none;
+    background: var(--brand-color-primary);
+    color: var(--base-color-secondary);
+}
+
+.profile-raychan {
+    margin-top: 32px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.raychan-name {
+    margin-top: auto;
+    margin-bottom: auto;
+    white-space: nowrap;
+    display: inline-block;
+    color: var(--base-color-primary);
+}
+
+footer {
+    margin-top: 64px;
+    width: 100%;
+    height: 200px;
+    background: var(--background-color-secondary);
+    position: relative;
+}
+
+.footer-terms-link {
+    position: absolute;
+    top: 148px;
+    left: 120px;
+    padding-left: 8px;
+    padding-right: 25px;
+    color: var(--base-color-primary);
+    border-bottom: 2px solid var(--base-color-primary);
+    text-decoration: none;
+}
+
+.footer-caption {
+    position: absolute;
+    top: 160px;
+    right: 120px;
     color: var(--base-color-primary);
 }
 
