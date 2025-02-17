@@ -1,7 +1,7 @@
 body {
     height: 100%;
     width: 100%;
-    max-width: 1200px;
+    /* max-width: 1200px; */
     min-width: 300px;
     margin: auto;
     position: relative;
@@ -321,5 +321,9 @@ footer {
         right: unset;
         left: 50%;
         transform: translateX(45px);
+    }
+
+    .main-column {
+        margin-left: calc((100vw - 960px)/2);
     }
 }
