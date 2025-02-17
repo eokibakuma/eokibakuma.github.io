@@ -76,6 +76,11 @@ body {
     align-items: center;
     box-shadow: 0px 4px 16px rgba(167, 166, 187, 0.25);
     text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button-omukae:hover {
+    background: var(--brand-color-primary);
 }
 
 .button-omukae img {
@@ -95,6 +100,10 @@ body {
     color: var(--base-color-primary);
 }
 
+.button-omukae:hover .omukae-text-upside {
+    color: var(--base-color-secondary);
+}
+
 .omukae-text-downside {
     border-radius: 8px;
     background: var(--brand-color-primary);
@@ -103,6 +112,11 @@ body {
     padding-right: 24px;
     padding-top: 8px;
     padding-bottom: 8px;
+}
+
+.button-omukae:hover .omukae-text-downside {
+    background: var(--background-color-tertiary);
+    color: var(--brand-color-secondary);
 }
 
 .terms-link {
