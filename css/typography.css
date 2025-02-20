@@ -132,3 +132,21 @@ body {
         font-size: 14px;
     }
 }
+
+@media screen and (max-width: 379.95px) {
+    .maru_title_main {
+        font-size: 32px;
+    }
+
+    .maru_title_sub {
+        font-size: 16px;
+    }
+
+    .maru_link_omukae {
+        font-size: 20px;
+    }
+
+    .section_title {
+        font-size: 20px;
+    }
+}

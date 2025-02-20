@@ -373,6 +373,14 @@ footer {
     .page-title {
         margin-top: 32px;
     }
+
+    .button-omukae img {
+        margin-left: auto;
+    }
+
+    .omukae-text {
+        margin-right: auto;
+    }
 }
 
 @media screen and (max-width: 839.95px) {
@@ -380,16 +388,80 @@ footer {
         width: unset;
         max-width: unset;
         margin-right: 64px;
-        gap: 48px;
+        gap: 32px;
     }
 
     .concept-description {
         margin-top: 278px;
+    }
+
+    .home-section {
+        padding-top: 8px;
+        padding-bottom: 8px;
+        background: rgba(243, 249, 255, 0.05);
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
+        border-radius: 32px;
+    }
+
+    .section-title {
+        width: unset;
+        max-width: 420px;
+        padding-right: 48px;
+    }
+
+    .footer-terms-link {
+        left: unset;
+        right: 64px;
+    }
+
+    .footer-caption {
+        right: 64px;
     }
 }
 
 @media screen and (max-width: 599.95px) {
     .main-tagunya-pic {
         right: 0px;
+    }
+
+    .main-column {
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+
+    .button-omukae {
+        width: unset;
+        padding-left: 32px;
+        padding-right: 32px;
+        margin-right: auto;
+    }
+
+    .button-omukae img {
+        display: none;
+    }
+
+    .timeline {
+        width: unset;
+    }
+
+    .profile-upside {
+        flex-direction: column;
+    }
+
+    .profile-icon {
+        align-items: start;
+    }
+
+    .profile-name {
+        margin-left: 16px;
+    }
+
+    .footer-terms-link {
+        right: 32px;
+    }
+
+    .footer-caption {
+        right: 32px;
     }
 }
