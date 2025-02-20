@@ -392,7 +392,11 @@ footer {
     }
 
     .concept-description {
-        margin-top: 278px;
+        margin-top: 264px;
+    }
+
+    .omukae-and-terms {
+        gap: 16px;
     }
 
     .home-section {
