@@ -67,3 +67,48 @@ header {
     margin-right: auto;
     border-bottom: 4px solid var(--brand-color-secondary);
 }
+
+@media screen and (max-width: 1199.95px) {
+    .header-title {
+        left: 120px;
+    }
+
+    .terms-main-column {
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+}
+
+@media screen and (max-width: 1049.95px) {
+    .header-title {
+        left: 64px;
+    }
+    
+    .terms-main-column {
+        margin-left: 64px;
+        margin-right: 64px;
+    }
+}
+
+@media screen and (max-width: 979.95px) {
+    header {
+        height: 160px;
+    }
+}
+
+@media screen and (max-width: 599.95px) {
+    .header-title {
+        left: 32px;
+    }
+    
+    .terms-main-column {
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+}
+
+@media screen and (max-width: 379.95px) {
+    header {
+        height: 144px;
+    }
+}
