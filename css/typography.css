@@ -99,6 +99,13 @@ body {
     line-height: 150%;
 }
 
+.terms_section_title {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 150%;
+}
+
 @media screen and (max-width: 979.95px) {
     .maru_title_main {
         font-size: 40px;
