@@ -363,6 +363,11 @@ footer {
         overflow: hidden;
     }
 
+    .main-tagunya-pic img {
+        width: unset;
+        aspect-ratio: 323 / 912;
+    }
+
     .main-column {
         width: calc(100vw - 400px);
         max-width: 525px;
